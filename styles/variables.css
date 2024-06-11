@@ -1,0 +1,41 @@
+/*
+  Переменные 
+  и их переопределение под различные устройства
+*/
+
+@charset 'UTF-8';
+
+:root {
+  /*шрифт*/
+  --main-font: 'IBM Plex mono', sans-serif;
+  --font-size: 18px;
+  --text-line-height: 130%;
+  /*цвета*/
+  --main-text-color: #f1b2ce;
+  --bold-text-color: #000028;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadows-color: var(--accent-color);
+  --background-color: var(--bold-text-color);
+  --background-image: url(../images/cover-image-dark.png);
+  --rec-light-color: var(--accent-color);
+
+  /*расстояния и координаты*/
+  --default-gap: 10px;
+  --big-gap: 20px;
+  --header-theme-inline-pos: 0;
+  --header-theme-block-pos: 7px;
+  --rec-light-inline-pos: 38px;
+  --rec-light-block-pos: 10px;
+  /*начальная координата по Ох палочек в углу*/
+  --decor-inline-pos: 10px;
+  /*начальная координата по Оу палочек в углу*/
+  --decor-block-pos: 10px;
+
+  --nav-menu-gap: 10px;
+  /*начальная координата по Ох меню выбора темы*/
+  --nav-menu-block-pos: 75px;
+
+  --default-section-sep: 48px;
+  --big-section-sep: 80px;
+}

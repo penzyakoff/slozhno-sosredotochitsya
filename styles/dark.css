@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+:root.theme-dark {
+  --main-text-color: #f1b2ce;
+  --bold-text-color: #000028;
+  --header-preambula-color: #000028;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadows-color: var(--accent-color);
+  --background-color: var(--bold-text-color);
+  --background-image: url(../images/cover-image-dark.png);
+  --rec-light-color: var(--accent-color);
+  --nav-menu-button-color: #ff0070;
+  --decor-color: #ff0070;
+  --section-title-color: #ff0070;
+}
+
+.page.theme_dark {
+  color: var(--main-text-color);
+  background-image: var(--background-image);
+  background-color: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --main-text-color: #f1b2ce;
+    --bold-text-color: #000028;
+    --header-preambula-color: #000028;
+    --accent-color: #ff0070;
+    --title-color: #db00ff;
+    --title-shadows-color: var(--accent-color);
+    --background-color: var(--bold-text-color);
+    --background-image: url(../images/cover-image-dark.png);
+    --rec-light-color: var(--accent-color);
+    --nav-menu-button-color: #ff0070;
+    --decor-color: #ff0070;
+    --section-title-color: #ff0070;
+  }
+}
